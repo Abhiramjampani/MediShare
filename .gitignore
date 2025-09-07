@@ -7,3 +7,6 @@ bun.lockb
 __MACOSX/
 # Build output
 mini-project/dist/
+# Env files
+.env*
+mini-project/.env*
