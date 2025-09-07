@@ -66,9 +66,12 @@ FLASK API
 ---
 
 ## 🛠️Setup Instructions 
-1. Clone the repository :
-   Git Clone 
-   cd 
+1. Clone the repository
+   
+   ```bash
+   git clone https://github.com/venkatavamsidama/MediShare.git
+   cd MediShare/mini-project
+   ```
    
 2. Install Dependecies
    Frontend : npm install/i
