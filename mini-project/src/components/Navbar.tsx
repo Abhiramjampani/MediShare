@@ -110,6 +110,7 @@ const Navbar = () => {
             <NavLink href="/recipients" label="Recipients" isScrolled={isScrolled} />
             <NavLink href="/ngos" label="NGOs" isScrolled={isScrolled} />
             <NavLink href="/donors" label="Donors" isScrolled={isScrolled} />
+            <NavLink href="/contact" label="Contact" isScrolled={isScrolled} />
             
             {isLoggedIn ? (
               <div className="flex items-center">
@@ -176,6 +177,7 @@ const Navbar = () => {
               <MobileNavLink href="/recipients" label="Recipients" onClick={toggleMenu} />
               <MobileNavLink href="/ngos" label="NGOs" onClick={toggleMenu} />
               <MobileNavLink href="/donors" label="Donors" onClick={toggleMenu} />
+              <MobileNavLink href="/contact" label="Contact" onClick={toggleMenu} />
               
               {isLoggedIn ? (
                 <>
